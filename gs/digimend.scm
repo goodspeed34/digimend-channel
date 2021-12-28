@@ -1,3 +1,12 @@
+(define-module (gs digimend)
+  #:use-module (guix download)
+  #:use-module ((guix licenses) #:prefix license:)
+  #:use-module (guix packages)
+  #:use-module (guix build utils)
+  #:use-module (guix build-system linux-module)
+  #:export (bower))
+
+
 (define-public digimend-linux-module
   (package
    (name "digimend-linux-module")
