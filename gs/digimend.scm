@@ -10,7 +10,7 @@
       (base32 "10zwx8cinfzrjcgfamxs3fhqrllsyj3ds26wax8xpylnqf2aifr4"))))
    (build-system linux-module-build-system)
    (arguments
-    `(#tests? #f)) ; No test avaiable
+    `(#:tests? #f)) ; No test avaiable
    (home-page "https://github.com/goodspeed34")
    (synopsis "DIGImend graphics tablet drivers for the Linux kernel")
    (description
