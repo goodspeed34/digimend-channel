@@ -4,7 +4,7 @@
   #:use-module (guix packages)
   #:use-module (guix build utils)
   #:use-module (guix build-system linux-module)
-  #:export (bower))
+  #:export (gs digimend))
 
 
 (define-public digimend-linux-module
