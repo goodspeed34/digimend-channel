@@ -16,7 +16,7 @@
      (method url-fetch)
      (uri (string-append "https://github.com/goodspeed34/digimend-kernel-drivers/archive/refs/tags/v" version ".tar.gz"))
      (sha256
-      (base32 "10zwx8cinfzrjcgfamxs3fhqrllsyj3ds26wax8xpylnqf2aifr4"))))
+      (base32 "02my36xvh52rw7cnbknscnfrhxg16hwqik37xbajj3y10lcwms9j"))))
    (build-system linux-module-build-system)
    (arguments
     `(#:tests? #f)) ; No test avaiable
