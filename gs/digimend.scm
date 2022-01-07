@@ -40,8 +40,7 @@
    (build-system copy-build-system)
    (arguments
     '(#:install-plan
-      '(("./udev.rules" "lib/udev/rules.d/90-digimend.rules")
-	("./hid-rebind", "lib/udev/hid-rebind"))))
+      '(("./udev.rules" "lib/udev/rules.d/90-digimend.rules") )))
    (home-page "https://github.com/goodspeed34")
    (synopsis "DIGImend graphics tablet drivers for the Linux kernel")
    (description
